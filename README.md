@@ -2,6 +2,7 @@
 Funky Theme for Bash
 
 (Converted from ZSH theme by me)
+https://tsdh.wordpress.com/2007/12/06/my-funky-zsh-prompt/
 
 # Goals
 
