@@ -5,7 +5,7 @@
 
 # translated from zsh to bash
 
-bash_op='\[\033[34m\]]\[\033[0m\]'
+bash_op='\[\033[34m\][\[\033[0m\]'
 blue_cp='\[\033[34m\]]\[\033[0m\]'
 green='\[\033[32m\]'
 red='\[\033[31m\]'
