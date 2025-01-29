@@ -10,5 +10,5 @@ Fell into the zsh trap when I started to learn linux. After a bit of research I 
 
 # Needs fixing
 - ~~smiley face not outputting properly~~ :)
-- status not properly displaying
+- status not properly displaying -- currently working on
 - history increments randomly instead of linearly
