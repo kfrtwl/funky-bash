@@ -15,8 +15,7 @@ user_host="${blue_op}\u@\h${blue_cp}"
 ret_status="${blue_op}\$?${blue_cp}"
 hist_no="${blue_op}\#${blue_cp}"
 
-
- smiley="$(if [[    $? -eq 1 ]]; then echo -e "${green}:)";    else echo -e "${red}:("; fi)"
+smiley="$(if [[    $? -eq 1 ]]; then echo -e "${green}:)";    else echo -e "${red}:("; fi)"
 
 PS1="╭─${path_p}─${user_host}─${ret_status}─${hist_no}
 ╰─${blue_op}${smiley}${blue_cp} $ "
