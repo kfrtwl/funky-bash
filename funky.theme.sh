@@ -13,7 +13,7 @@ red='\033[0;31m'
 path_p="${blue_op}\w${blue_cp}"
 user_host="${blue_op}\u@\h${blue_cp}"
 ret_status="${blue_op}\$?${blue_cp}"
-hist_no="${blue_op}\!${blue_cp}"
+hist_no="${blue_op}\#${blue_cp}"
 
 
  smiley='$(if [[    $? -eq 1 ]]; then echo -e "${green}:)";    else echo -e "${red}:("; fi)'
